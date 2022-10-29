@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateTeamActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative1"
+        android:background="#86F4AE">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/camera"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageuplaod"/>
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/layout1"
+            android:textColorHint="#333232"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/imageuplaod"
+            android:background="@color/teal_200">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter Player Name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/etidname"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/layout2"
+            android:textColorHint="#333232"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/layout1"
+            android:background="@color/teal_200">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter Player Age"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/etidage"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/layout3"
+            android:textColorHint="#333232"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/layout2"
+            android:background="@color/teal_200">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter Player Address"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/etidaddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/layout4"
+            android:textColorHint="#333232"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/layout3"
+            android:background="@color/teal_200">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter Player blank"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/etidblank"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/layout4"
+            android:layout_centerHorizontal="true"
+            android:text="submit"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/btnsubmit"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+

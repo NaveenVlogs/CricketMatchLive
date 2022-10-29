@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F4B8B8"
+    android:layout_height="340dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_margin="5dp"
+        android:background="@color/teal_700">
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/image_contact"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="demo text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image_contact"
+        android:gravity="center"
+
+        android:id="@+id/textname"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Contat number"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textname"
+        android:id="@+id/textcontact"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

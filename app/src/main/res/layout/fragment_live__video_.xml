@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".Live_Video_Fragment">
+
+    <Button
+        android:id="@+id/record_video"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+        android:text="RECORD VIDEO"
+        android:textColor="#F60505"
+        android:textSize="20sp"
+        android:textStyle="bold"
+      android:clickable="true"
+        android:background="@color/white"
+        android:src="@drawable/camera" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/record_video"
+        android:layout_margin="20dp"
+        android:id="@+id/video_view"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Fragment_Bottom.PlayerContact">
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:hint="search product"-->
+<!--        android:textColorHint="#494545"-->
+<!--        android:padding="10dp"-->
+<!--        android:background="#F4B3B3"-->
+<!--        android:id="@+id/etidsearch"/>-->
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchview1"
+        android:background="#09630D"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        app:queryHint="Search Here..."/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchview1"
+        android:id="@+id/player_contact_recyclerview"
+        android:background="@color/white"/>
+
+
+
+
+
+</RelativeLayout>

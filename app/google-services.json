@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398373145473",
+    "project_id": "cricketmatchlive-4395e",
+    "storage_bucket": "cricketmatchlive-4395e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398373145473:android:f0087866eb892b2246f680",
+        "android_client_info": {
+          "package_name": "com.cricket.match.live.pack1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398373145473-ac6si5plb393t7agg8su8snn75ttf7jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPClRfqIujNhXOrzKGVL6yMvJuqaoK9r0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398373145473-ac6si5plb393t7agg8su8snn75ttf7jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

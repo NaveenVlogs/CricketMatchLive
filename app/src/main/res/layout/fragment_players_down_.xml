@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F37D58"
+    tools:context=".Fragment_Bottom.Players_down_Fragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relatiview_opener1"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/tv_openers"
+            android:text="Opners"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/mangu1"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/tv_openers"
+            android:id="@+id/image_openers"/>
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/nishu1"
+            android:layout_below="@id/tv_openers"
+            android:layout_toRightOf="@id/image_openers"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/image_runner"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_below="@id/image_openers"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:hint="Enter Players Name"
+            android:textColorHint="@color/black"
+            android:id="@+id/etidopners"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/image_openers"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/etidopners"
+            android:layout_marginTop="5dp"
+            android:hint="Enter Players Name"
+            android:textColorHint="@color/black"
+            android:id="@+id/etidrunner"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative1stdown"
+            android:layout_below="@id/etidrunner">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:id="@+id/tv_1st_down"
+                android:text="1st Down"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_1st_down"
+                android:src="@drawable/tinku1"
+                android:id="@+id/image_1st_down"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/image_1st_down"
+                android:hint="Enter player name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:id="@+id/etid_1stdown"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative2nddown"
+            android:layout_below="@id/relative1stdown">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:id="@+id/tv_2nd_down"
+                android:text="2st Down"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_2nd_down"
+                android:src="@drawable/nitin1"
+                android:id="@+id/image_2nd_down"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/image_2nd_down"
+                android:hint="Enter player name"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:id="@+id/etid_2nd_down"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative3nddown"
+            android:layout_below="@id/relative2nddown">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_3nd_down"
+                android:text="3st Down"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_3nd_down"
+                android:src="@drawable/gaurav1"
+                android:id="@+id/image_3nd_down"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/image_3nd_down"
+                android:hint="Enter player name"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:id="@+id/etid_3nd_down"/>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative4nddown"
+            android:layout_below="@id/relative3nddown">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_4nd_down"
+                android:text="4st Down"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_4nd_down"
+                android:src="@drawable/amrish1"
+                android:id="@+id/image_4nd_down"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/image_4nd_down"
+                android:hint="Enter player name"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:id="@+id/etid_4nd_down"/>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative5nddown"
+            android:layout_below="@id/relative4nddown">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_5nd_down"
+                android:text="5st Down"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_5nd_down"
+                android:src="@drawable/love1"
+                android:id="@+id/image_5nd_down"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/image_5nd_down"
+                android:hint="Enter player name"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:id="@+id/etid_5nd_down"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative6nddown"
+            android:layout_below="@id/relative5nddown">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_6nd_down"
+                android:text="5st Down"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_6nd_down"
+                android:src="@drawable/aakash1"
+                android:id="@+id/image_6nd_down"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/image_6nd_down"
+                android:hint="Enter player name"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:id="@+id/etid_6nd_down"/>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>
